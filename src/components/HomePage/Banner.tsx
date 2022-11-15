@@ -1,8 +1,7 @@
 import React from 'react';
-import { Box, Button, Typography } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import Flex from '../Flex';
 import BannerBackground from './BannerBackground';
-import { StaticImage } from 'gatsby-plugin-image';
 import styled from '@emotion/styled';
 import Partners from './Partners';
 

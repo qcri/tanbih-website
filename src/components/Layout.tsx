@@ -1,6 +1,6 @@
-import React, { ReactNode, useEffect, useState } from 'react';
+import React, { ReactNode } from 'react';
 
-import { AppBar, Box, Button, styled, useScrollTrigger } from '@mui/material';
+import { AppBar, Box, styled, useScrollTrigger } from '@mui/material';
 import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 
@@ -31,7 +31,7 @@ const Layout = ({ children, title = 'TANBIN - QCRI News Project' }: { children?:
       <ElevationScroll>
         <StyledAppBar>
           <HeaderContainer>
-            <StaticImage src={'../images/tanbih.png'} alt="Picture of the author" />
+            <StaticImage src={'../images/tanbih.png'} alt="Tanbih" />
             <LinksWrapper>
               {ROUTES.map(route => (
                 <Box key={route.href}>

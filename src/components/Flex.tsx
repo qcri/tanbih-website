@@ -1,8 +1,8 @@
-import React from 'react'
-import { Box, styled } from '@mui/material'
+import React from 'react';
+import { Box, styled } from '@mui/material';
 
 const Flex = styled(Box)`
   display: flex;
-`
+`;
 
-export default Flex
+export default Flex;
