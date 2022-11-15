@@ -11,7 +11,7 @@ const Banner = () => {
     <BannerContainer>
       <BannerBackground />
       <Box pt="200px" pb="180px">
-        <div className="title">
+        <div className="title gradient-text">
           The leading AI powered <br />
           news aggregator
         </div>
@@ -33,23 +33,7 @@ const BannerContainer = styled(Flex)`
   flex-direction: column;
   padding: 0 12%;
   .title {
-    background-image: linear-gradient(
-      90deg,
-      #e42d5a 0%,
-      #c93d7d 15.44%,
-      #b54695 27.32%,
-      #a74e9e 36.91%,
-      #9e56a2 48.09%,
-      #8d6eb0 58.14%,
-      #7b84c1 69.33%,
-      #6798d0 77.09%,
-      #57a9da 84.17%,
-      #59b4e1 92.16%,
-      #63bbe6 100%
-    );
     background-size: 100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 1.25rem;
     font-size: 3.2rem;
     font-weight: 700;

@@ -6,7 +6,7 @@ import styled from '@emotion/styled';
 const Partners = () => {
   return (
     <PartnerContainer>
-      <div className={'title'}>AI Teams we are collaborated</div>
+      <div className="title gradient-text">AI Teams we are collaborated</div>
       <Box className="logos">
         <StaticImage
           src={'../../images/partner-icons/hbku_2021.svg'}
