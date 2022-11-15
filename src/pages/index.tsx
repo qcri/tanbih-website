@@ -8,6 +8,8 @@ import WhyTanbin from '../components/HomePage/WhyTanbin';
 import Review from '../components/HomePage/Review';
 import MediaCoverage from '../components/HomePage/MediaCoverage';
 import Footer from '../components/HomePage/Footer';
+import { HeadFC } from 'gatsby';
+import SEO from '../components/SEO';
 
 const IndexPage = () => {
   return (
@@ -24,4 +26,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-// export const Head: HeadFC = () => <SEO />;
+export const Head: HeadFC = () => <SEO />;

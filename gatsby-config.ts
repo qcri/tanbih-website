@@ -4,9 +4,8 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `TANBIN - QCRI News Project`,
     description: `Example project for the Gatsby Head API`,
-    twitterUsername: `@gatsbyjs`,
-    image: `/gatsby-icon.png`,
-    siteUrl: `https://www.yourdomain.tld`,
+    image: `src/images/icon.png`,
+    siteUrl: `http://tanbih.qcri.org/`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
