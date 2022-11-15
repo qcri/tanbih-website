@@ -43,6 +43,7 @@ const UseCaseContainer = styled.div`
     font-size: 1.5rem;
     padding-top: 1rem;
     color: #555555;
+    padding-right: 24px;
   }
 `;
 

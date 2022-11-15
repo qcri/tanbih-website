@@ -34,6 +34,7 @@ const Container = styled.div`
     text-align: center;
     padding-top: 4rem;
     height: 600px;
+    white-space: nowrap;
     .img {
       box-shadow: 0 6px 6px -3px rgb(0 0 0 / 20%), 0 10px 14px 1px rgb(0 0 0 / 14%), 0 4px 18px 3px rgb(0 0 0 / 12%);
       border-radius: 0.5rem;

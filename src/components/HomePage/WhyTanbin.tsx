@@ -68,6 +68,7 @@ const UseCaseContainer = styled.div`
     font-size: 1rem;
     padding-top: 1rem;
     color: #555555;
+    padding-right: 24px;
   }
 `;
 export default WhyTanbin;
